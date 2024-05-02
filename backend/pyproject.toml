@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "words"
+version = "0.1.0"
+description = ""
+authors = ["Igor Bakutin <igorbakutin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.3"
+uvicorn = "^0.29.0"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+scikit-learn = "^1.4.2"
+sentence-transformers = "^2.7.0"
+torch = "^2.3.0"
+nltk = "^3.8.1"
+annoy = "^1.17.3"
+tqdm = "^4.66.2"
+ipython = "^8.24.0"
+jupyter = "^1.0.0"
+pdbpp = "^0.10.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.2"
+black = "^24.4.2"
+mypy = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff.format]
+quote-style = "double"

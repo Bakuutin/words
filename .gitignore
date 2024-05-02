@@ -1,0 +1,6 @@
+__pycache__
+.ruff_cache
+
+# too big for github (>100MB)
+*.ann
+*.pkl 
